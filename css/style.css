@@ -1,0 +1,136 @@
+body{
+  background-color: black;
+  color:white;
+
+}
+
+
+.navbar-default {
+    background-color: black;
+}
+
+.navbar-default .navbar-nav > li > a  {
+    color: white;
+    font-size: 0.8em;
+}
+ .navbar-default span {
+    color: white;
+    font-size: 1.2em;
+    line-height: 50px;
+}
+.no-padding , .no-padding > [class*='col-']{
+  padding: 0;
+  margin: 0;
+}
+.twenty {
+  font-size: 0.8em;
+  padding-left: 30px;
+  line-height: 40px;
+  border-bottom: 1px solid grey;
+}
+.menu_2{
+  list-style-type: none;
+  padding: 0;
+
+}
+.menu_2 li{
+  border-bottom: 1px solid grey;
+  line-height: 40px;
+}
+.menu_2 li:hover {
+  background-color: #24890D;
+}
+.menu_2 li a{
+  color:white;
+  text-decoration: none;
+  padding-left: 30px;
+}
+.menu_2 li .fa{
+  float: right;
+  padding: 12px 15px 0 0;
+}
+
+h3{
+  font-size: 0.8em;
+}
+
+#photos p{
+  font-size: 1.1em;
+}
+.bold {
+  font-weight: bold;
+}
+.green {
+  color: green;
+}
+.italic {
+  font-style: italic;
+}
+.audiotheme {
+  background-color: white;
+  color: black;
+}
+.underline{
+  text-decoration: underline;
+}
+.vide{
+  height: 383px;
+}
+section h2{
+  margin:0;
+  font-size: 2.5em;
+}
+section{
+  padding:10% 15% 0 15%;
+}
+#h3upcoming {
+  border-top: 3px solid black;
+  font-size: 1.2em;
+  margin: 20% 1.5em 2em 0;
+  padding-top: 0.5em;
+}
+.telluride {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-right: 1.5em;
+}
+.date{
+  padding-bottom: 0.5em;
+}
+.niller{
+padding-top: 0.5em;
+}
+.float{
+  float:left;
+}
+.play{
+  border-top:3px solid black;
+  font-size: 1.2em;
+  margin: 20% 1.5em 2em 0;
+
+}
+#play{
+  padding:10px;
+  background-color: black;
+  color:white;
+  font-size: 0.5em;
+}
+.featured{
+  padding-top:5px;
+  margin-left: 5px;
+}
+.img5{
+  padding-right: 1.5em;
+}
+.overview {
+  margin-right: 1.5em;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  padding: 1em 0 1.5em 0;
+  border-bottom: 1px solid lightgrey;
+}
+.lorem {
+  line-height: 1.6em;
+}
