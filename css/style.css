@@ -1,17 +1,28 @@
+*{outline: none;
+}
+
+
 body{
   background-color: black;
   color:white;
 
 }
 
-
 .navbar-default {
     background-color: black;
+    border:none;
 }
 
 .navbar-default .navbar-nav > li > a  {
     color: white;
     font-size: 0.8em;
+}
+.navbar-default .navbar-nav  li:hover  {
+    background-color: green;
+    color:white;
+}
+.navbar-default .navbar-nav  li:hover a {
+    color:white;
 }
  .navbar-default span {
     color: white;
@@ -50,21 +61,49 @@ body{
   padding: 12px 15px 0 0;
 }
 
+.menu_2_bas{
+  padding-left: 30px;
+  padding-right: 20px;
+}
+input{
+  width: 162px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: black;
+  border-color: grey;
+}
 h3{
   font-size: 0.8em;
 }
 
+.nom{
+  line-height: 1em;
+}
 #photos p{
   font-size: 1.1em;
 }
 .bold {
   font-weight: bold;
 }
+
 .green {
   color: green;
 }
 .italic {
   font-style: italic;
+}
+.italic2{
+  font-style: italic;
+  padding-top: 1em;
+}
+.special{
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  font-size: 1.1em;
+}
+.twenty2{
+  font-size: 0.8em;
+  margin-top: 5em;
 }
 .audiotheme {
   background-color: white;
@@ -100,7 +139,7 @@ section{
   padding-bottom: 0.5em;
 }
 .niller{
-padding-top: 0.5em;
+  padding-top: 0.5em;
 }
 .float{
   float:left;
